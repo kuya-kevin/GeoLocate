@@ -1,7 +1,4 @@
 # socketutil.py module
-# Author: K. Walsh <kwalsh@cs.holycross.edu>
-# Date: 15 January 2015
-# Updated: 16 October 2020 - renamed to socketutil, added more helpers
 
 """
 This module contains socket helpers designed to make regular Python sockets a

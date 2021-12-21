@@ -1,14 +1,10 @@
 # This is a fabric2 configuration file for deploying and running code in
 # the cloud.
 #
-# Author: kwalsh@cs.holycross.edu
-# Date: January 25, 2015.
-# Updated: October 18, 2020.
-#
 # To use this file, you need to have the `fab` command installed from the
 # fabric3 package (see: https://pypi.org/project/Fabric3/). You can either:
 #
-# (a) Rely on the copy I have installed on all of our Google Cloud and Amazon
+# (a) Rely on the copy installed on all of our Google Cloud and Amazon
 #     Cloud servers. Copy your code to any cloud machine by either loging in and
 #     running `git clone` and/or `git pull` and `git update`, or transfer your
 #     code using `scp` directly from your own laptop. Then log in to the cloud

@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 #
-# Author: K. Walsh <kwalsh@cs.holycross.edu>
-# Date: 9 February 2017
-# Updated: 17 October 2020
-#
 # Website analyzer and geolocation service top level program. Run it like this:
 #   python3 geolocation.py central_host central_port
 # where central_host is the IP address (or the DNS host name) of the host that
@@ -16,13 +12,7 @@
 #    central.run_central_coordinator(central_host, central_port)
 # Otherwise, this code calls a function from worker.py like this:
 #    worker.run_worker_server(central_host)
-#
-# In other words, this file isn't really intended to have any of the code
-# implementing the central coordinator or worker code in it. That code should be
-# put in central.py and worker.py instead.
-#
-# Feel free to modify this in any way you like, e.g. adding more command-line
-# arguments, or modifying how it works.
+
 
 import sys            # for sys.argv
 import cloud          # for info on our cloud location
